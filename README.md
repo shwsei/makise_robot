@@ -29,7 +29,7 @@ $ npm install
 
 $ yarn add
 
-$ pip install -r requirements.texto
+$ pip install -r requirements.text
 
 # Variáveis ambientes
 
