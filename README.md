@@ -6,10 +6,10 @@
 
 Você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 - [Git](https://git-scm.com)
-- [Node.js](https://nodejs.org/en/). 
-- [Python 3]()
+- [Node.js](https://nodejs.org/en/) 
+- [Python 3](https://www.python.org/)
 - [PIP](https://pypi.org/project/pip/) 
-- [Caffe](https://caffe.berkeleyvision.org/install_apt.html). 
+- [Caffe](https://caffe.berkeleyvision.org/install_apt.html) 
 
 ### 🎲 Rodando o bot
 
