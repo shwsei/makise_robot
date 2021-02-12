@@ -23,11 +23,13 @@ $ cd makise_robot
 # Instale as dependências
 # Usando o NPM:
 
-$ npm install
+$ npm i
+$ npm i -g typescript
 
 # Usando o Yarn
 
 $ yarn add
+$ yarn global add typescript
 
 $ pip install -r requirements.txt
 
