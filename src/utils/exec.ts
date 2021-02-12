@@ -9,9 +9,8 @@ export function exec(cmd: string): Promise<string> {
 }
 
 export async function execNSFW(filename: any): Promise<boolean> {
-  const pyExec = await exec(`python3 index.py temp/${filename}}`);
+  const pyExec = await exec(`python3 index.py temp/${filename}`);
   const probability = parseFloat(pyExec.replace('\n', ''));
-
   return probability >= 0.85 ? true : false
 
 }

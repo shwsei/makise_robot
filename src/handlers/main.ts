@@ -19,7 +19,7 @@ export const mainHandler = Composer.on(['animation', 'video', 'photo', 'sticker'
     const downFile = await ctx.tg.getFileLink(type)
 
     const file = await downloadImg(downFile.href, String(Date.now()))
-    const verifyImg = execNSFW(file)
+    const verifyImg = await execNSFW(file)
 
     if (verifyImg) {
       try {

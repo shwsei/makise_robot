@@ -14,7 +14,5 @@ export default async function downloadImage(url: string, filename: string): Prom
 
   data.pipe(writerFile);
 
-  return `./temp/${filename}.jpg`
+  return `${filename}.jpg`
 }
-
-

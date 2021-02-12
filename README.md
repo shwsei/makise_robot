@@ -23,13 +23,15 @@ $ cd makise_robot
 # Instale as dependências
 # Usando o NPM:
 
-$ npm install
+$ npm i
+$ npm i -g typescript
 
 # Usando o Yarn
 
 $ yarn add
+$ yarn global add typescript
 
-$ pip install -r requirements.text
+$ pip install -r requirements.txt
 
 # Variáveis ambientes
 
@@ -52,4 +54,5 @@ $ yarn build && yarn start
 ```
 ### Ignore este erro: [screenshot](http://i.imgur.com/pzcj9h3.png)
 # Pronto, o bot já estará rodando
+
 
