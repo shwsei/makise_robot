@@ -1,6 +1,7 @@
 # Makise Robot
 ## Chat bot para o Telegram, cujo irá banir qualquer usuário que enviar conteúdo NSFW
-![Badge](https://img.shields.io/badge/Telegram-ShuseiKagari-blue)
+
+[![Chat on Telegram](https://img.shields.io/badge/Telegram-ShuseiKagari-blue)](https://t.me/ShuseiKagari)
 
 ### Pré-requisitos
 
@@ -11,7 +12,7 @@ Você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 - [PIP](https://pypi.org/project/pip/) 
 - [Caffe](https://caffe.berkeleyvision.org/install_apt.html) 
 
-### 🎲 Rodando o bot
+### 🤖 Rodando o bot
 
 ```bash
 # Clone este repositório
