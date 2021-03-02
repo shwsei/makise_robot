@@ -1,12 +1,12 @@
 import {Composer} from 'telegraf';
 
 export const callback = Composer.on('callback_query', async ctx => {
-  const chatId = String(ctx.chat?.id) // ignore a gambiarra, é apenas para burlar a porra do "compilador"
-  const isAdm = await ctx.tg.getChatAdministrators(chatId)
-  const found = isAdm.find(msg => msg.user.id === ctx.from?.id)
+  const getAdms = await ctx.getChatAdministrators()
+  const isAdm = getAdms.find(msg => msg.user.id === ctx.from?.id)
 
-  if (found) {
+  if (isAdm && 'data' in ctx.callbackQuery) {
     try {
+      const { data } = ctx.callbackQuery
       await ctx.unbanChatMember(parseInt(ctx.callbackQuery.data))
       await ctx.editMessageText('Usuário desbanido')
       ctx.answerCbQuery('Usuário desbanido')
