@@ -29,7 +29,7 @@ $ npm i -g typescript
 
 # Usando o Yarn
 
-$ yarn add
+$ yarn install
 $ yarn global add typescript
 
 $ pip install -r requirements.txt
@@ -53,7 +53,5 @@ $ npm run build && npm run server
 
 $ yarn build && yarn start
 ```
-### Ignore este erro: [screenshot](http://i.imgur.com/pzcj9h3.png)
 # Pronto, o bot já estará rodando
-
-
+Obs: erro de tipagem na hora de transpilar para JS foi concertado...
